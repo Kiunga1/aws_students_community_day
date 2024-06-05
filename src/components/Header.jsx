@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         
         <button className="lg:hidden self-end" onClick={toggleMenu}>
-          {isMenuOpen ? <FaTimes size="lg" /> : <FaBars size="lg" />}
+          {isMenuOpen ? <FaTimes size="24" /> : <FaBars size="24" />}
         </button>
       </nav>
 
