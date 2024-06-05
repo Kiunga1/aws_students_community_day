@@ -1,4 +1,4 @@
-import {  FaLinkedinIn } from 'react-icons/fa';
+import { BsLinkedin } from "react-icons/bs";
 import { MdOutlineMail } from "react-icons/md";
 import { RiTwitterXLine } from "react-icons/ri";
 
@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Social Icons Section */}
         <div className="flex space-x-6">
           <a href="https://www.linkedin.com/in/aws-student-community-kenya-136556307/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange">
-            <FaLinkedinIn className='h-7'/>
+            <BsLinkedin className='h-7'/>
           </a>
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange">
             <RiTwitterXLine  className='h-7'/>
