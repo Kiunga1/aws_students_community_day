@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import Button from './Button';
-
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +26,7 @@ const Header = () => {
         </div>
         
         <button className="lg:hidden self-end" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars } size="lg" />
+          {isMenuOpen ? <FaTimes size="lg" /> : <FaBars size="lg" />}
         </button>
       </nav>
 
